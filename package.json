@@ -3,7 +3,7 @@
 	"displayName": "SCSS Allman Formatter",
 	"description": "Formats braces to new lines (Allman style). SCSS & CSS formatter for VS Code",
 	"version": "0.0.1",
-	"publisher": "Grant Bartlett",
+	"publisher": "GrantBartlett",
 	"repository": "https://github.com/GrantBartlett/vscode-scss-allman-formatter",
 	"engines": {
 		"vscode": "^1.34.0"
