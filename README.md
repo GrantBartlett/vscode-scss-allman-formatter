@@ -6,7 +6,7 @@ Braces will autoformat to the next line.
 
 ```css
 .test{
-	color: red;
+    color: red;
 }
 ```
 
@@ -15,7 +15,7 @@ Becomes
 ```css
 .test
 {
-	color: red;
+    color: red;
 }
 ```
 
