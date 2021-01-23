@@ -1,0 +1,40 @@
+{
+	"name": "scss-allman-formatter",
+	"displayName": "SCSS Allman Formatter",
+	"description": "Formats braces to new lines (Allman style). SCSS & CSS formatter for VS Code",
+	"version": "0.0.1",
+	"publisher": "grant-bartlett",
+	"repository": "",
+	"engines": {
+		"vscode": "^1.34.0"
+	},
+	"categories": [
+		"Formatters"
+	],
+	"activationEvents": [
+		"onCommand:extension.scssAllmanFormatter"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.scssAllmanFormatter",
+				"title": "SCSS Allman Formatter"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint . --ext .ts,.tsx",
+		"watch": "tsc -watch -p ./"
+	},
+	"devDependencies": {
+		"@types/node": "^12.12.0",
+		"@types/vscode": "^1.34.0",
+		"@typescript-eslint/eslint-plugin": "^3.0.2",
+		"@typescript-eslint/parser": "^3.0.2",
+		"eslint": "^7.1.0",
+		"typescript": "^4.0.2"
+	}
+}
