@@ -2,7 +2,7 @@
 	"name": "scss-allman-formatter",
 	"displayName": "SCSS Allman Formatter",
 	"description": "Formats braces to new lines (Allman style). SCSS & CSS formatter for VS Code",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"publisher": "GrantBartlett",
 	"icon": "images/icon.png",
 	"repository": {
@@ -16,7 +16,9 @@
 		"Formatters"
 	],
 	"activationEvents": [
-		"onCommand:extension.scssAllmanFormatter"
+		"onCommand:extension.scssAllmanFormatter",
+		"onLanguage:css",
+		"onLanguage:scss"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
